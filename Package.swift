@@ -9,6 +9,7 @@ let package = Package(
     ],
     products: [
         .executable(name: "sourcery", targets: ["Sourcery"]),
+        .library(name: "SourceryMain", targets: ["Sourcery"]),
         .library(name: "SourceryRuntime", targets: ["SourceryRuntime"]),
         .library(name: "SourceryJS", targets: ["SourceryJS"]),
         .library(name: "SourcerySwift", targets: ["SourcerySwift"]),
